@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #5AC9F4;
+  --secondary-color: #01BAEF;
+  --tertiary-color: #2892D7;
+  --bg-color: #D8DBE2;
+  --supplementary-color: #068D9D;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: var(--tertiary-color);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*
+button {
+  width: 150px;
+  height: 100px;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  background: var(--primary-color);
+
+}*/
